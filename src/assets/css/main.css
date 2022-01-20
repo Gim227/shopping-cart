@@ -1,0 +1,52 @@
+[v-cloak] {
+    display: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    background-color: #F0F2F5;
+    margin-bottom: 60px;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+.navbar .title-nav-group {
+    display: block;
+    max-width: 40%;
+}
+.navbar .title-nav-group .title-nav {
+    margin: 0;
+    line-height: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 33px; /* Vertically center the text there */
+    font-size: 12px;
+    background-color: #cbdce5;
+}
+
+
+/* modal*/
+.modal-content {
+    border-radius: 14px !important;
+}
+.modal-header {
+    /*padding: 2rem 2rem 1rem 2rem;*/
+    border: 0;
+}
+.modal-footer {
+    /*padding: 1rem 2rem 2rem 2rem;*/
+    border: 0;
+}
